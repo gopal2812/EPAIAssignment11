@@ -6,6 +6,8 @@ The starting point for this project is the Polygon class and the Polygons sequen
 ###Goal
 Refactor the Polygons (sequence) type, into an iterable. You'll need to implement both an iterable, and an iterator.
 
+![image](https://user-images.githubusercontent.com/39087216/126877754-95428ec4-10be-4bdd-8f47-5d51b9f5e9b1.png)
+
 ### Polygon Class
 1. A regular strictly convex polygon is a polygon that has the following characteristics:
     * All interior angles are less than 180
@@ -50,9 +52,6 @@ Refactor the Polygons (sequence) type, into an iterable. You'll need to implemen
 5.  Refactor the Polygons (sequence) type, into an iterable. You'll need to implement both an iterable, and an iterator.
 
 ```
-**Help on class Polygons in module __main__:
-Help on Polygon in module __main__ object:
-
 class Polygon(builtins.object)
  |  Polygon(n, r)
  |  
@@ -158,8 +157,6 @@ class Polygons(builtins.object)
  |  
  |  PolygonIterator = <class '__main__.Polygons.PolygonIterator'>
  |      This is an Iterator for the polygons class
-
-**Help on class PolygonIterator in module __main__:
 
 class PolygonIterator(builtins.object)
  |  PolygonIterator(poly_obj)
