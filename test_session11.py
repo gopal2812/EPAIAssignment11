@@ -1,4 +1,5 @@
 from polygon import Polygon
+from poly_sequence import Polygons
 import math
 
 """* Refactor the Polygons (sequence) type, into an iterable. You'll need to implement 
