@@ -64,7 +64,7 @@ class Polygons:
             if self._index >= len(self._poly_obj):
                 raise StopIteration
             else:
-                item = self._polyobj._polygons[self._index]
+                item = self._poly_obj._polygons[self._index]
                 self._index += 1
                 print(f'here: {self._index}')
                 return item
