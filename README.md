@@ -1,9 +1,10 @@
 # Assignment11
 EPAi Assignment11
-##Description
+
+## Description
 The starting point for this project is the Polygon class and the Polygons sequence type we created in the previous project or mentioed in deepNote
 
-###Goal
+### Goal
 Refactor the Polygons (sequence) type, into an iterable. You'll need to implement both an iterable, and an iterator.
 
 ![image](https://user-images.githubusercontent.com/39087216/126877754-95428ec4-10be-4bdd-8f47-5d51b9f5e9b1.png)
